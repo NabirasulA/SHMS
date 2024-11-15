@@ -1,0 +1,55 @@
+ .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('path/to/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.homepage-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.homepage-header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.primary-button, .secondary-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.primary-button:hover {
+    background-color: #218838;
+}
+
+.secondary-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.secondary-button:hover {
+    background-color: #0056b3;
+} 

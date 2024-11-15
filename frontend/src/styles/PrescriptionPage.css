@@ -1,0 +1,58 @@
+.prescription-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prescription-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.appointment-id {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.prescription-details {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.prescription-details p {
+  margin: 10px 0;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+}
+
+strong {
+  color: #007bff;
+}
+
+/* Optional: Add hover effects on paragraphs or links for interaction */
+.prescription-details p:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}

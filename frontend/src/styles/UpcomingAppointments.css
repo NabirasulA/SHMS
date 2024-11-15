@@ -1,0 +1,85 @@
+/* Container for the appointments */
+.appointments-Box {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the appointments section */
+  .appointments-Box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  .appointments-appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .appointments-appointmentTable th,
+  .appointments-appointmentTable td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .appointments-appointmentTable th {
+    background-color: #4CAF50;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .appointments-appointmentTablee td {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Highlight alternating rows */
+  .appointments-appointmentTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for rows */
+  .appointments-appointmentTable tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Status column styling */
+  .appointments-appointmentTable td.status {
+    font-weight: bold;
+  }
+  
+  .appointments-appointmentTable td.status.pending {
+    color: #ffcc00;
+  }
+  
+  .appointments-appointmentTable td.status.completed {
+    color: #28a745;
+  }
+  
+  .appointments-appointmentTable td.status.canceled {
+    color: #dc3545;
+  }
+  
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    .appointments-Box {
+      padding: 15px;
+    }
+  
+    .appointments-appointmentTablee th,
+    .appointments-appointmentTable td {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,103 @@
+/* HealthcareProfessionalPage.css */
+
+.healthcare-professional-container {
+  background-color: #f4f6f9;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h2 {
+  color: #4CAF50;
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #4CAF50;
+}
+
+.appointments-table-container {
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.appointments-table th, .appointments-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointments-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.appointments-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.confirm-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.prescription-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.feedback-btn {
+  background-color: #FFC107;
+  color: white;
+  margin-top: 10px;
+}
+
+/* New style for the delete button */
+.delete-btn {
+  background-color: #c9302c; /* Bootstrap's 'danger' red color */
+  color: white;
+  opacity: 0.95;
+}
+
+/* Hover, active, and disabled states */
+.action-btn:hover {
+  opacity: 0.9;
+}
+
+.action-btn:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

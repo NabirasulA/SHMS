@@ -1,0 +1,26 @@
+.appointment-counts-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .appointment-counts-table-container {
+    overflow-x: auto;
+  }
+  
+  .appointment-counts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointment-counts-table th,
+  .appointment-counts-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .appointment-counts-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  

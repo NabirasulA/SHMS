@@ -1,0 +1,63 @@
+/* styles/QueryDashboardPage.css */
+
+.query-dashboard-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.dashboard-title {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.query-section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #2a3d66;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.query-card {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+
+.query-item {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.query-dashboard-button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.query-dashboard-button:hover {
+    background-color: #45a049;
+}
